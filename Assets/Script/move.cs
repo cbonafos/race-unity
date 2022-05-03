@@ -8,11 +8,11 @@ public class move : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Z))
         {
-            GetComponent<Rigidbody>().MovePosition(transform.position + Vector3.forward * 0.1f);
+            GetComponent<Rigidbody>().MovePosition(transform.position + Vector3.forward * 0.25f);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            GetComponent<Rigidbody>().MovePosition(transform.position + Vector3.forward * (-0.1f));
+            GetComponent<Rigidbody>().MovePosition(transform.position + Vector3.forward * (-0.25f));
         }
         if (Input.GetKey(KeyCode.Q))
         {
